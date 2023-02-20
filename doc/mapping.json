@@ -1,0 +1,53 @@
+{
+  "mappings": {
+    "properties": {
+      "package": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "text"
+          },
+          "description": {
+            "type": "text"
+          },
+          "keywords": {
+            "type": "text"
+          },
+          "version": {
+            "type": "text",
+            "index": false
+          },
+          "date": {
+            "type": "date",
+            "index": false
+          },
+          "maintainers": {
+            "type": "object",
+            "properties": {
+              "username": {
+                "type": "keyword"
+              },
+              "email": {
+                "type": "keyword"
+              }
+            }
+          },
+          "scope": {
+            "type": "keyword"
+          },
+          "dist-tags": {
+            "dynamic": "true",
+            "type": "object"
+          }
+        }
+      },
+      "downloads": {
+        "properties": {
+          "all": {
+            "type": "long"
+          }
+        }
+      }
+    }
+  }
+}

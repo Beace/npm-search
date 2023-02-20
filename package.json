@@ -1,0 +1,16 @@
+{
+  "name": "npm-search",
+  "version": "1.0.0",
+  "description": "elasticsearch client for npm search",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.6.0",
+    "npm-registry-fetch": "^14.0.3"
+  }
+}
