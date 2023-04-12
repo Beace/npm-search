@@ -1,5 +1,5 @@
 const { Client } = require('@elastic/elasticsearch')
-const { parseFullName } = require('../util');
+const { parseFullName } = require('./util');
 
 class ES {
   constructor(node, index) {

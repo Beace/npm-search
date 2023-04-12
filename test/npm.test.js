@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('assert');
-const NPM = require('../npm');
+const NPM = require('../src/npm');
 
 const npm = new NPM();
 
