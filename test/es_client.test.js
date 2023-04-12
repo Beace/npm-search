@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('assert');
-const getClient = require('../es_client');
+const getClient = require('../src/es_client');
 
 const client = getClient();
 
