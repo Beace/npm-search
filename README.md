@@ -162,6 +162,23 @@ http.host: 0.0.0.0
 }
 ```
 
+## start
+
+```bash
+$ npm start
+```
+
+use `npm search` command
+
+```bash
+$ npm search react --registry http://localhost:3000
+```
+
+see
+
+![npm search](./doc/npm_search.png)
+
+
 ## npm test
 
 run test file

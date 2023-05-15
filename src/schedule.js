@@ -30,7 +30,7 @@ const job = new CronJob(
   '* * * * *',
   exec,
   null,
-  true,
+  false,
   undefined,
   undefined,
   true
