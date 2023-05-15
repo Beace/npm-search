@@ -9,10 +9,10 @@ class ES {
     })
   }
 
-  async query(params) {
+  async query(query) {
     const result = await this.client.search({
       index: this.index,
-      query: params,
+      ...query
     })
     return result;
   }
