@@ -191,4 +191,10 @@ $ npm test
 
 ## Deploy
 
-still WIP...
+copy the `.env` and `docker-compose.yaml` files. run
+
+```
+$ docker-compose up -d
+```
+
+open http://localhost:5601
